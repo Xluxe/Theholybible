@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.table{
+  background-color: antiquewhite;
+  min-width: 60%;
+  min-height: 60%;
+  margin: 20px auto;
+}
+.table>div:first-child{
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
+}
+.table>div:first-child p{
+  font-size: large;
+  font-weight: bold;
+}
+.table>div:last-child{
+  display: flex;
+  justify-content: center;
+}
+.table>div:last-child>div:first-child{
+  height: 40px;
+  width: 85px;
+  background-color: goldenrod;
+  margin-left: 20px;
+  border-radius: 30px;
+}
+.table>div:last-child>div:first-child a{
+  text-decoration: none;
+  color: black;
+}
+.table>div:last-child>div:first-child a:hover{
+  color:rgb(39, 38, 36);
+}
+.table>div:last-child>div:nth-child(2){
+  height: 40px;
+  width: 85px;
+  background-color: goldenrod;
+  margin-left: 20px;
+  border-radius: 30px;
+}
+.table>div:last-child>div:nth-child(2) a{
+  text-decoration: none;
+  color: black;
+}
+.table>div:last-child>div:nth-child(2) a:hover{
+  color:rgb(39, 38, 36);
+}
+.table>div:last-child>div:nth-child(3){
+  height: 40px;
+  width: 85px;
+  background-color: goldenrod;
+  margin-left: 20px;
+  border-radius: 30px;
+}
+.table>div:last-child>div:nth-child(3) a{
+  text-decoration: none;
+  color: black;
+}
+.table>div:last-child>div:nth-child(3) a:hover{
+  color:rgb(39, 38, 36);
+}
+.table>div:last-child>div:nth-child(4){
+  height: 40px;
+  width: 85px;
+  background-color: goldenrod;
+  margin-left: 20px;
+  border-radius: 30px;
+}
+.table>div:last-child>div:nth-child(4) a{
+  text-decoration: none;
+  color: black;
+}
+.table>div:last-child>div:nth-child(4) a:hover{
+  color:rgb(39, 38, 36);
+}
+.table>div:last-child>div:nth-child(5){
+  height: 40px;
+  width: 85px;
+  background-color: goldenrod;
+  margin-left: 20px;
+  border-radius: 30px;
+}
+.table>div:last-child>div:nth-child(5) a{
+  text-decoration: none;
+  color: black;
+}
+.table>div:last-child>div:nth-child(5) a:hover{
+  color:rgb(39, 38, 36);
+}
+.table>div:last-child>div:nth-child(6){
+  height: 40px;
+  width: 85px;
+  background-color: goldenrod;
+  margin-left: 20px;
+  border-radius: 30px;
+}
+.table>div:last-child>div:nth-child(6) a{
+  text-decoration: none;
+  color: black;
+}
+.table>div:last-child>div:nth-child(6) a:hover{
+  color:rgb(39, 38, 36);
+}
+.table>div:last-child>div:nth-child(7){
+  height: 40px;
+  width: 85px;
+  background-color: goldenrod;
+  margin-left: 20px;
+  border-radius: 30px;
+}
+.table>div:last-child>div:nth-child(7) a{
+  text-decoration: none;
+  color: black;
+}
+.table>div:last-child>div:nth-child(7) a:hover{
+  color:rgb(39, 38, 36);
+}
+.table>div:last-child>div:nth-child(8){
+  height: 40px;
+  width: 85px;
+  background-color: goldenrod;
+  margin-left: 20px;
+  border-radius: 30px;
+}
+.table>div:last-child>div:nth-child(8) a{
+  text-decoration: none;
+  color: black;
+}
+.table>div:last-child>div:nth-child(8) a:hover{
+  color:rgb(39, 38, 36);
+}
+.table>div:last-child>div:nth-child(9){
+  height: 40px;
+  width: 85px;
+  background-color: goldenrod;
+  margin-left: 20px;
+  border-radius: 30px;
+}
+.table>div:last-child>div:nth-child(9) a{
+  text-decoration: none;
+  color: black;
+}
+.table>div:last-child>div:nth-child(9) a:hover{
+  color:rgb(39, 38, 36);
+}
+.table>div:last-child>div:last-child{
+  height: 45px;
+  width: 90px;
+  display: flex;
+  align-items: center;
+  background-color: goldenrod;
+  margin-left: 20px;
+  border-radius: 30px;
+}
+.table>div:last-child>div:last-child a{
+  text-decoration: none;
+  color: black;
+}
+.table>div:last-child>div:last-child a:hover{
+  color:rgb(39, 38, 36);
+}
+.chapters{
+  background-color: antiquewhite;
+  min-height: fit-content;
+  min-width: 100%;
+  margin: 0;
+}
+.chapters button{
+  background-color: rgb(245, 188, 207);
+  border: 1px solid rgb(250, 175, 200);
+}
+.chapters button a{
+  text-decoration: none;
+  color: black;
+}
+.chapters button a:hover{
+  color: rgb(124, 122, 122);
+  transition: 0.5ms ease-in-out;
+}
+.chapters>div:nth-child(2){
+  background-color: rgb(245, 188, 207);
+  height: fit-content;
+  width: 65%;
+  margin: 0 auto;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  font-size: larger;
+  font-weight:50px;
+}
+.open{
+  background-image:url(../images/1.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  min-height:600px;
+  width:1200px;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  margin: 0px auto;
+}
+.open>div{
+  color: rgb(255, 253, 253);
+  margin: 0 auto;
+}
+.open>div:first-child{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.open>div:first-child h1{
+  margin-bottom: 70px;
+}
+.open>div:last-child{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.open>div:last-child button{
+  padding: 5px 10px;
+  border: 1px solid grey;
+  border-radius: 50%;
+  background-color: transparent;
+  margin: 0 auto;
+}
+.open>div:last-child a{
+  text-decoration: none;
+  color: rgb(255, 253, 253);
+}
+.open>div:last-child a:hover{
+  color: rgba(255, 255, 255, 0.384);
+  transition: 0.5ms ease-in-out;
+}
+.open>div:last-child button:hover{
+  border: 1px solid rgb(255, 253, 253);
+  transition: 0.5s ease-in-out; 
+}
